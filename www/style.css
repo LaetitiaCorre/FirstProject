@@ -1,3 +1,24 @@
-h1 {
-  color: rgba(238, 255, 0, 0.397);
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1400px;
+}
+.preHeader {
+  display: grid;
+  grid-template-columns: auto min-content min-content;
+  background-color: grey;
+  white-space: nowrap;
+  padding: 10px;
+  
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto min-content min-content;
+}
+
+.box1{
+  max-width: 1400px;
 }
