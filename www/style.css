@@ -1,24 +1,67 @@
 body {
   margin: 0;
+  font-family: 'Mukta', sans-serif;
 }
 
 .container {
   max-width: 1400px;
 }
+
 .preHeader {
   display: grid;
   grid-template-columns: auto min-content min-content;
-  background-color: grey;
+  background-color: rgb(68, 64, 64);
   white-space: nowrap;
   padding: 10px;
+  color: white;
   
+}
+
+.preaHeaderBoxRight {
+  text-align: right;
+  white-space: nowrap;
 }
 
 .header {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto min-content min-content;
+  font-size: 20px;
+  align-items: center;
+}
+
+.header img {
+  height: 50px;
+  width: auto; 
+  padding: 10px;
 }
 
 .box1{
   max-width: 1400px;
+ 
+}
+
+.box1 img {
+  height: 500px;
+  width: auto;
+}
+
+.box3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.box3Right {
+  display: grid;
+  grid-template-rows: min-content auto;
+  align-items: center; 
+  background-color: grey;
+}
+
+#background-image {
+  background-image: url("images/Image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
