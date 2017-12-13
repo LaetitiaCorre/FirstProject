@@ -18,10 +18,12 @@ body {
 }
 
 .header {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto min-content min-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: 20px;
   align-items: center;
+  margin: 0 20px;
 }
 
 .header img {
@@ -35,12 +37,35 @@ body {
  
 }
 
+h1 {
+  font-family: 'Mukta', sans-serif; 
+  font-size: 58px;
+  padding: 100px 200px;
+  white-space: nowrap;
+  letter-spacing: 2px;
+}
+
+.oeillet {
+  border-radius: 50%;
+  background-color: rgb(226, 39, 55);
+  width: 150px;
+  height: 150px;
+}
+
 .backgroundImage1 {
   background-image: url("images/Image0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   height: 100vh;
+  color: white;
+}
+
+.textIndie2 {
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0 0 0;
 }
 
 .backgroundImage2 {
@@ -49,6 +74,8 @@ body {
   background-size: cover;
   background-position: center center;
   height: 100vh;
+  text-align: center;
+  font-size: 30px; 
 }
 
 .box3 {
@@ -61,7 +88,10 @@ body {
   display: grid;
   grid-template-rows: min-content auto;
   align-items: center; 
-  background-color: grey;
+  background-color: rgb(226, 226, 226);
+  padding: 40px;
+  text-align: center;
+  
 }
 
 #background-image {
