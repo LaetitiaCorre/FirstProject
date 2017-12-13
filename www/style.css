@@ -12,14 +12,9 @@ body {
   grid-template-columns: auto min-content min-content;
   background-color: rgb(68, 64, 64);
   white-space: nowrap;
-  padding: 10px;
+  padding: 10px ;
   color: white;
-  
-}
-
-.preaHeaderBoxRight {
-  text-align: right;
-  white-space: nowrap;
+  margin: 0 20px; 
 }
 
 .header {
@@ -40,9 +35,20 @@ body {
  
 }
 
-.box1 img {
-  height: 500px;
-  width: auto;
+.backgroundImage1 {
+  background-image: url("images/Image0.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.backgroundImage2 {
+  background-image: url("images/Image2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
 }
 
 .box3 {
