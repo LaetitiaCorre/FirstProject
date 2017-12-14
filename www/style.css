@@ -3,6 +3,10 @@ body {
   font-family: 'Mukta', sans-serif;
 }
 
+ul {
+  list-style: none;
+}
+
 .container {
   max-width: 1400px;
 }
@@ -14,16 +18,33 @@ body {
   white-space: nowrap;
   padding: 10px ;
   color: white;
-  margin: 0 20px; 
+  margin: 0; 
 }
 
-.header {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  size: 80px;
+  
+  
+}
+
+.headerLeft {
+  display: flex;
+  flex-direction: row;
   font-size: 20px;
   align-items: center;
-  margin: 0 20px;
+  
+}
+
+.headerRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 20px;
+  align-items: center;
+  
 }
 
 .header img {
