@@ -3,8 +3,9 @@ body {
   font-family: 'Mukta', sans-serif;
 }
 
-ul {
-  list-style: none;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .container {
@@ -12,13 +13,30 @@ ul {
 }
 
 .preHeader {
-  display: grid;
-  grid-template-columns: auto min-content min-content;
-  background-color: rgb(68, 64, 64);
-  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #3c3c3b;
   padding: 10px ;
   color: white;
-  margin: 0; 
+  list-style: none;
+}
+
+.list-inline {
+  list-style: none;  
+}
+
+.list-inline >li {
+  margin-left: 10px;
+}
+
+.preHeader-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.preHeader .fa {
+  margin-right: 10px;
 }
 
 nav {
