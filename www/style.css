@@ -13,12 +13,16 @@ h1 {
 
 h2 {
   margin: 0;
-  font-size: 32px; 
+  font-size: 38px; 
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.bouton-white:hover {
+  opacity: 0.8;
 }
 
 .container {
@@ -46,25 +50,40 @@ a {
 .preHeader-right {
   display: flex;
   flex-direction: row;
+  margin-right: 10px;
+}
+
+.preHeader-left {
+  margin-left: 0px;
+  padding: 0;
 }
 
 .preHeader .fa {
   margin-right: 10px;
 }
 
+.preHeader i {
+  font-size: 22px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 0px;
 }
 
 .header a{
-  display: block;
+  display: block; 
 }
 
 .logo {
   width: 130px;
   display: block; 
+}
+
+.header .fa {
+  font-size: 22px;
 }
 
 .headerLeft {
@@ -73,6 +92,8 @@ nav {
   justify-content: space-around;
   font-size: 20px;
   align-items: center;
+  padding-left: 10px;
+  margin: 0;
 }
 
 .headerRight{
@@ -81,10 +102,19 @@ nav {
   justify-content: flex-end;
   font-size: 20px;
   align-items: center;
+  padding-right: 10px;
+}
+
+.border-search {
+  border-left: 1px solid #3c3c3b;
+  color: lightgrey;
+  font-size: 16px;
+  padding-left: 20px;
 }
 
 .headerRight .fa {
   margin-right: 10px;
+  color: #c4a181;
 }
 
 .box1{
@@ -159,6 +189,7 @@ nav {
 
 .backgroundImage3 {
   text-align: center;
+  padding: 20px;
 }
 
 .box4 {
@@ -280,7 +311,7 @@ nav {
 .links {
   display: flex;
   flex-direction: row;
-  background-color: #f4f4f4;
+  background-color: #fff;
   justify-content: space-around;
   padding: 40px;
 }
@@ -302,10 +333,34 @@ nav {
   height: auto;
 }
 
-#background-image {
-  background-image: url("images/Image1.jpg") ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
+.paiement-réseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px 50px;
+}
+
+.paiement-réseaux img {
+  width: 35px;
+}
+
+.réseaux i {
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+.i fa-facebook-square {
+  color: red;
+}
+
+.recherches {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+footer {
+  background-color: #3c3c3b;
+  text-align: center;
+  color: #fff;
 }
