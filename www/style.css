@@ -200,6 +200,9 @@ nav {
   height: 100vh;
   text-align: center;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box5 {
@@ -363,4 +366,7 @@ footer {
   background-color: #3c3c3b;
   text-align: center;
   color: #fff;
+}
+.footer-item p {
+  margin: 0;
 }
