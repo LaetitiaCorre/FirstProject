@@ -177,13 +177,16 @@
 
     <section class="box-newsletter">
       <h2>La newsletter</h2>
-      <div>Notre article déco, c'est la boite mail !</div>
+      <div class="textIndie2" >Notre article déco, c'est la boite mail !</div>
+      <form action="#">
+        <input type="text" name="email" placeholder="Votre adresse mail...">
+      </form>
     </section>
 
     <section class="box9">
       <h2>Des produits beaux mais pas seulement</h2>
       <div>De l'origine des matières premières à la deuxième vie des produits, découvrez nos engagements.</div>
-      <span>VOIR NOS ENGAGEMENTS</span>
+      <a href="" class="bouton-Black">Voir nos engagements</a>
     </section>
 
     <section class="box10">
@@ -192,15 +195,26 @@
         <p>Service client</p>
         <p>0800 40 20</p>
       </div>
-      <div>
+      <!-- <div>
         <i class="fa fa-lock" aria-hidden="true"></i> Paiement sécurisé
         <br>Mastercard/ Visa/ Paypal</div>
-      <div>
-        <i class="fa fa-rotate-left" aria-hidden="true"></i> Retour gratuits
-        <br>pendant 14 jours</div>
-      <div>
-        <i class="fa fa-truck" aria-hidden="true"></i> Livraison gratuite
-        <br>dans toute les boutiques</div>
+      <div> -->
+      <div class="footer-item">
+        <i class="fa fa-lock" aria-hidden="true"></i>
+        <p>Paiement sécurisé</p>
+        <p>Mastercard/ Visa/ Paypal</p>
+      </div>
+      <div class="footer-item">
+        <i class="fa fa-rotate-left" aria-hidden="true"></i> 
+        <p>Retour gratuits</p>
+        <p>pendant 14 jours</p>
+      </div>
+      <div class="footer-item">
+        <i class="fa fa-truck" aria-hidden="true"></i>
+        <p>Livraison gratuite</p>
+        <p>dans toute les boutiques</p>
+      </div>
+        
     </section>
 
     <section class="links">
@@ -234,40 +248,53 @@
         <li><a href="">Professionnel : découvrez l’espace pro</a></li>
         <li><a href="">Journalistes : accédez à nos dernières actu</a></li>
         <li><a href="">En recherche d'emploi : consultez nos offres</a></li>
-
       </ul>
 
-      <ul class="links-left">
-          <li class="links-block"><a href="">Rejoignez la communauté Maisons du Monde</li>
-          <div>Restez en contact avec nous à tout moment !</div>
-          <div class="links-left-img"></div>
-      </ul>
+      <div class="links-left">
+        <div class="links-block">
+          <a href="">Rejoignez la communauté Maisons du Monde</a>
+        </div>
+        <p>Restez en contact avec nous à tout moment !</p>
+        <div class="links-left-img"></div>
+        <div class="inscription-newsletter">
+          <div class="inscription-newsletter-left">
+            <p>Newsletter</p>
+            <p>Soyez au courant des nouveautés, suivez les conseils de nos stylistes</p>
+            <form action="#">
+              <input type="text" name="email" placeholder="votre email">
+            </form>
+            <a href="" class="bouton-Black">Je m'inscris</a>
+          </div>
+          <div class="img-newsletter"></div>
+        </div>
+      </div>
+
     </section>
 
     <section class="paiement-réseaux">
       <div class="paiement">
         <div>Mode de paiement</div>
-        <i class="fa fa-cc" aria-hidden="true"></i>
-        <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
-        <i class="fa fa-cc-visa" aria-hidden="true"></i>
-        <i class="fa fa-paypal" aria-hidden="true"></i>
-      </div>
-      <div class="réseaux">
-        <div>Suivez-nous sur les réseaux sociaux !</div>
-        <i class="fa fa-facebook-square" aria-hidden="true"></i>
-        <i class="fa fa-twitter-square" aria-hidden="true"></i>
-        <i class="fa fa-youtube" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
-        <i class="fa fa-pinterest" aria-hidden="true"></i>
-      </div>
+          <i class="fa fa-cc" aria-hidden="true"></i>
+          <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
+          <i class="fa fa-cc-visa" aria-hidden="true"></i>
+          <i class="fa fa-paypal" aria-hidden="true"></i>
+        </div>
+        <div class="réseaux">
+          <div>Suivez-nous sur les réseaux sociaux !</div>
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-pinterest" aria-hidden="true"></i>
+        </div>
     </section>
 
     <div class="recherches">TOP RECHERCHES<i class="fa fa-angle-down" aria-hidden="true"></i></div>
 
     <footer>
-      <div><i class="fa fa-copyright" aria-hidden="true"></i> Maisons du Monde 2017 - Crédits et mentions légales - Plan du site</div>
-      
+      <div><i class="fa fa-copyright" aria-hidden="true"></i> Maisons du Monde 2017 - Crédits et mentions légales - Plan du site</div> 
     </footer>
+
   </div>
 
 </body>
